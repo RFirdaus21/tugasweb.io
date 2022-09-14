@@ -1,0 +1,31 @@
+section .tugas {
+  padding-top: 5rem;
+  background: #b39eb5;
+  padding-bottom: 0rem;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container 1 {
+  padding: 10px;
+  width: 70%;
+  margin: 0px auto;
+  background: #fffacd;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container .box {
+  width: 100%;
+  padding: 50px;
+  background: #fff;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px -3px rgba(0, 0, 0, 0.1);
+}
+footer {
+  padding-bottom: 10px;
+  height: 100%;
+  margin-top: 100px;
+}
