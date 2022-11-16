@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lato" />
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="css 3.css" />
+
+    <!-- CSS Solo -->
+    <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon" />
+    <title class="text-start">Level Register</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: #553555" shadow-sm>
+      <div class="container">
+        <a class="navbar-brand" href="#"><img src="../gambar/logo.png" height="35" width="35" />&nbsp;<font color="FAEBD7">mi vida de estudio</font></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="../index.html"><font color="FAEBD7">Home</font></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html"><font color="FAEBD7">Tugas</font></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html"><font color="FAEBD7">About Me</font></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Akhir Navbar -->
+
+    <!---Isi-->
+    <section id="tugas">
+        <div class="tugas">
+          <div class="container 1">
+            <div class="box">
+              <h2>Level Register</h2> <br>
+              <p>Register adalah komponen yang lebih kompak dibandingkan dengan sebuah gerbang logik dan flip-flop. Definisi register sendiri yaitu komponen komponen dalam komputer yang dibangun dari flip flop dan gerbang.</p>
+              <p><br>Pembagian register berdasarkan data yang dikelompokkan : 
+                <br>•	Register Data : Untuk menyimpan bilangan integer
+                <br>•	Register Alamat : Untuk menyimpan alamat yang digunakan untuk mengakses memori
+                <br>•	Register Tujuan Umum : Untuk menyimpan data juga alamat
+                <br>•	Register Floating Point : Menyimpan bilangan floating point
+                <br>•	Register Konstanta : Menyimpan nilai yang hanya dapat dibaca
+                <br>•	Register Vektor : Menyimoan data untuk melakukan proses vector
+                <br>•	Register Tujuan Khusus : Untuk menyimpan kondisi program termasuk di dalamnya terdapat pencacah program stack point dan register status
+                </p>
+                <p>Rangkaian Komponen Register :  
+                    <br>1.	Rangkaian Kombinasional
+                    <br>Rangkaian dimana setiap outputnya merupakan fungsi input pada saat tertentu saja. Komponennya sendiri terdiri dari Multiplexer, Demultiplexer, Decoder, Encoder, Aritmethic Elements.
+                    <br>2.	Rangkaian Sequential
+                    <br>Rangkaian yang outputnya tidak hanya bergantung pada input waktu itu saja, tetapi juga bergantung pada keadaan input sebelumnya. Komponennya sendiri terdiri dari Paralel Register, Shift Register dan Counter.
+                    </p>
+                    <p><img src="SS1.png" width="400px" height="200px"></p><br>
+                    <p>Multiplexer atau MUX adalah rangkaian yang memilih satu daru beberapa jalur input menjadi satu jalur output. Jalur sumber yang diteruskan ke jalur output dikendalikan oleh “Select”.</p>
+                    <p>Contoh Rangkaian Multiplexer<img src="SS 2.png"width="300px" height="200px"></p>
+                    <br><p>Demultiplexer berperan sebagai distributor data. Demultiplexer ini merupakan kebalikan dari MUX dimana ia akan mengambil satu input dan kemudian disebarkan pada beberapa jalur output.</p>
+                    <p>Contoh Rangkaian Demultiplexer<img src="SS 3.png" width="300px" height="200px"></p>
+                    <br><p>Decoder adalah sebuah rangkaian dimana rangkaian tersebut menerima input kemudian akan memilih salah satu jalur output.</p>
+                    <p>Simbol decoder 1/n<img src="SS 4.png" width="300px" height="200px"></p><br>
+                    <p>Rangkaian Decoder<img src="SS 5.png" width="300px" height="200px"></p><br>
+                    <p>Encoder merupakan rangkaian yang digunakan untuk membuat alamat atau nama dari input line yang aktif. Encoder ini merupakan kebalikan dari decoder. Encoder biasanya mempunyai 2x input line dan x output jalur alamat.</p>
+                    <p>Simbol Encoder n bit <img src="SS 6.png" width="300px" height="200px"></p>
+                    <p>Register Data yakni kumpulan elemen memori yang bekerja Bersama sebagai satu unit dan berfungsi sebagai penyimpan data.</p>
+                    <p>Rangkaian Register Data<img src="SS 7.jpg "width="300px" height="200px"></p>
+                    <p>Simbol Register Data n bit<img src="SS 8.png" width="300px" height="200px"></p>
+                    <p>Register Geser yaitu register yang dapat melakukan penggeseran ke kiri atau ke kanan. Untuk melakukan pergeseran harus mempunyai x buah flip-flop master-slave yang masing – masingnya dihubungkan dengan kiri – kanannya. </p>
+                    <p>Rangkaian Register Geser<img src="SS 10.png" width="300px" height="100px"></p>
+                    <p>Simbol Register Geser n bit<img src="SS 9.png" width="300px" height="200px"></p>
+                    <p>Fungsi Register Geser : <br>1. Menyimpan data serial <br>2. Konversi data serial ke paralel atau paralel ke serial <br>3. Melakukan operasi aritmetik</p>
+                    <p>Register Geser Universal (Kanan - Kiri) <img src="SS 11.png" width="300px" height="200px"></p>
+                    <p>Pencacah atau Counter adalah sebuah mesin sekuensial yang digunakan untuk mencacah. Pencacah sederhana diperoleh dari modifikasi register geser.  </p>
+                    <p>Simbol Pencacah atau Counter <img src="SS 12.png"width="300px" height="200px"> </p><br> <br>
+              <p> Muhammad Raihan Firdaus <br> 16 November 2022</p>
+            </div>
+          </div>
+          
+
+    <!-- Footer -->
+    <footer class="text-center pb-3 pt-2" style="background-color: #2f1c2f" shadow-sm>
+        <p><font color="FAEBD7">©All Rights Reserved</font></p>
+      </footer>
+      <!-- Last Footer -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  </body>
+</html>
